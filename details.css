@@ -268,6 +268,7 @@ h1 strong{
 }
 .else h3{
     padding-bottom: 2em;
+    font-size: 2rem;
 
 }
 .card2 {
@@ -277,6 +278,7 @@ h1 strong{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 4em;
 }
 .card1{
     display: flex;
@@ -292,7 +294,7 @@ h1 strong{
     transition: all 0.3s ease;
 }
 .card1:hover{
-    background-color: #75947f;
+    background-color: #88c89c;
 }
 #else-p-title{
     font-size: 1rem;
@@ -319,7 +321,9 @@ h1 strong{
     transition: all 0.3s ease;
 }
 #else-p-panier:hover{
-    background-color: rgb(214, 201, 201);
+    background-color: rgb(227, 162, 162);
+    
+    padding: 8px 45px;
 }
 .card1 img{
     width: 90%;
@@ -396,8 +400,6 @@ footer .social_media #i3 {
         display: flex;
         padding-right: 9em;
     }
-    
-
     .product-img{
         background-color: #BDDAB6;
         border-radius: 2rem;
@@ -414,9 +416,8 @@ footer .social_media #i3 {
     html, body {
         overflow-x: hidden;
     }
-    .product-description{
         
-    }
+    
     /* footer */
    footer .alllinks .btnsocial {
       display: block;
